@@ -1,16 +1,14 @@
 package by.praded;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 /**
  * @author Kiryl Praded
- * 19.10.2020
+ * 21.10.2020
  */
-import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.LogManager;
-
-public class MyApp {
-
-
-    private static final Logger logger = LogManager.getLogger(MyApp.class);
+public class FileLog {
+    private static final Logger logger = LogManager.getLogger(FileLog.class);
 
     public static void main(String... args) {
 
